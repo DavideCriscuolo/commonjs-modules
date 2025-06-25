@@ -3,10 +3,7 @@
 // Esporta la funzione dal file.
 
 function hobbyArray(hobbyOne, hobbyTwo, hobbyThree) {
-  const hobbies = [];
-  hobbies.push(hobbyOne, hobbyTwo, hobbyThree);
-
-  return hobbies;
+  return [hobbyOne, hobbyTwo, hobbyThree];
 }
 
 module.exports = hobbyArray;
